@@ -1,0 +1,21 @@
+{
+  "search": "Nhập từ khóa tìm kiếm",
+  "greeting": "Xin chào, {{name}}!",
+  "dialog": {
+    "title": "Hộp thoại",
+    "intro": "Hộp thoại là điều khiển phương thức. Đây là một cửa sổ bật lên tạm thời yêu cầu người dùng tương tác với ứng dụng.",
+    "use": "Khi nào nên sử dụng",
+    "use-1": "1. Nó được sử dụng để xác nhận các hành động, chẳng hạn như xóa/hủy một mục, yêu cầu mọi người chú ý.",
+    "use-2": "2. Người dùng phải thực hiện một số lựa chọn trước bước tiếp theo. Khi kết quả lỗi cần người dùng chú ý, sử dụng hộp thoại để hiển thị cảnh báo.",
+    "basic-usage": "Cách sử dụng cơ bản",
+    "layout": "Chiều rộng mặc định: 480px, chiều cao tối đa có thể là 80% x hiện tại. Chiều cao trình duyệt. Khi không gian nội dung đầy, nó sẽ bắt đầu cuộn theo chiều dọc. Bạn nên tránh cuộn ngang.",
+    "header": "Cung cấp tiêu đề ở bên trái và giữ tiêu đề đơn giản và trực quan nhất có thể, chẳng hạn như “Xóa” “Cảnh báo”",
+    "button": "Bao gồm một nút chính. Nút phụ là tùy chọn. Nút xác nhận chính luôn được đặt ở phía bên phải. Viết nhãn nút là phản hồi cụ thể cho thông tin chính trong tiêu đề. Tiêu đề “Xóa tập tin này?” có thể có các nút có nhãn “Xóa” và “Hủy” Phím Esc hoạt động giống như hiệu ứng “Hủy”.",
+    "open-dialog": "Mở hộp thoại",
+    "confirm": "Xác nhận",
+    "email-confirm": "Xác nhận email",
+    "submit": "Gửi",
+    "cancel": "Hủy bỏ",
+    "ok": "Đồng ý"
+  }
+}

@@ -1,0 +1,31 @@
+$color-shadow: rgba(100, 100, 111, 0.2);
+$color-border: #ccc;
+$color-background: white;
+$color-hover: #e2e2e2;
+$color: black;
+
+.ms-Stack.css-111 {
+  &:focus {
+    box-shadow: $color-shadow 0px 7px 29px 0px;
+  }
+}
+
+.search-data {
+  position: absolute !important;
+  top: 22px;
+  border: 1px solid $color-border;
+  width: 217px;
+  background-color: $color-background;
+  border-radius: 4px;
+  box-shadow: $color-shadow 0px 7px 29px 0px;
+
+  .link {
+    text-decoration: none;
+    padding: 7px 14px;
+    color: $color;
+
+    &:hover {
+      background-color: $color-hover;
+    }
+  }
+}

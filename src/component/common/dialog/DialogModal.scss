@@ -1,0 +1,15 @@
+$dark: #333333;
+$ochre: #b8564b;
+$violet: rgb(196, 223, 46);
+
+button .dialog-footer-btn .dark-mode {
+  background-color: $dark !important;
+}
+
+button .dialog-footer-btn .ochre-mode {
+  background-color: $ochre !important;
+}
+
+button .dialog-footer-btn .violet-mode {
+  background-color: $violet !important;
+}

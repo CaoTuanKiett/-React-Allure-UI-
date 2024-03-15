@@ -1,0 +1,32 @@
+$color-title: #979797;
+$color-link: #000000;
+$color-hover: rgb(72, 69, 247);
+
+.listSideBar {
+  padding: 14px 4px;
+  width: 100%;
+
+  .title {
+    color: $color-title;
+    font-weight: 400;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 26px;
+
+    .link {
+      text-decoration: none;
+      margin-bottom: 20px;
+      color: $color-link;
+      font-size: 14px;
+
+      &:hover {
+        color: $color-hover;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.defaultLayout {
+  position: relative;
+  padding-top: 68px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  .defaultLayout-body {
+    display: flex;
+    width: 100%;
+    max-height: 92vh;
+    overflow: scroll;
+
+    .layout-sidebar {
+      width: 30%;
+    }
+
+    .layout-children {
+      width: 70%;
+    }
+  }
+}
